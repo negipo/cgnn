@@ -31,10 +31,10 @@ def fetch_and_store
 
       caller = th.text
       tds[0].text.split("\n").each do |nickname|
-        rows << [caller, '自分', tds[1].text.gsub(/[\s　]/, '')]
+        rows << [caller, '自分', nickname.gsub(/[\s　]/, '')]
       end
       tds[1].text.split("\n").each do |nickname|
-        rows << [caller, 'プロデューサー', tds[1].text.gsub(/[\s　]/, '')]
+        rows << [caller, 'プロデューサー', nickname.gsub(/[\s　]/, '')]
       end
       tds[2].text.split(/\n/).each do |line|
         line.gsub!(/[\s　]/, '')
