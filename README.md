@@ -1,6 +1,6 @@
 ```
+$ bundle install
 $ FETCH_AND_STORE=1 ./app.rb
-
 $ ./app.rb 美波
 新田美波        自分    プロデューサーさん
 新田美波        自分    プロデューサーさん
