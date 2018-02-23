@@ -48,7 +48,7 @@ def fetch_and_store
 end
 
 def db
-  db ||= SQLite3::Database.new(CACHE_DB)
+  @db ||= SQLite3::Database.new(CACHE_DB)
 end
 
 def store(rows)
