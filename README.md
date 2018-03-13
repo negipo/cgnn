@@ -1,3 +1,7 @@
+# Deprecated
+
+This project has been merged into https://cgcall.negipo.cc/
+
 ```
 $ bundle install
 $ FETCH_AND_STORE=1 ./app.rb
